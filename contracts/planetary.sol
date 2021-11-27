@@ -18,7 +18,7 @@ contract Planetary is ERC721, ERC721URIStorage {
 
     function _cratePlanet(address to, uint id, string memory url) private returns (bool) {
       _safeMint(to, id);
-      return true
+      return true;
 
     }
 
